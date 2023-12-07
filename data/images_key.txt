@@ -1,0 +1,32 @@
+batch 1:
+Image 1 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_1_3.jpeg
+Image 1 -> frame1_3rd 
+Image 2 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_1_2.jpeg
+Image 1 -> frame1_2nd 
+Image 3 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_1_1.jpeg
+Image 1 -> frame1_1st 
+----------
+batch 2:
+Image 1 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_2_2.jpeg
+Image 1 -> frame2_2nd 
+Image 2 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_2_1.jpeg
+Image 1 -> frame2_1st 
+Image 3 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_2_3.jpeg
+Image 1 -> frame2_3rd 
+----------
+batch 3:
+Image 1 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_3_2.jpeg
+Image 1 -> frame3_2nd 
+Image 2 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_3_3.jpeg
+Image 1 -> frame3_3rd 
+Image 3 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_3_1.jpeg
+Image 1 -> frame3_1st 
+----------
+batch 4:
+Image 1 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_4_3.jpeg
+Image 1 -> frame4_3rd 
+Image 2 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_4_2.jpeg
+Image 1 -> frame4_2nd 
+Image 3 -> https://imgsimilarity.s3.eu-north-1.amazonaws.com/batch_4_1.jpeg
+Image 1 -> frame4_1st 
+----------

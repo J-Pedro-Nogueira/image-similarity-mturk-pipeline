@@ -1,0 +1,16 @@
+image,model,match_found,1st_match,adjacent_hits
+i1(76),VGG16,1,1,5
+i1(76),InceptionV3,1,1,6
+i1(76),MobileNetV2,1,1,4
+i2(151),VGG16,1,1,9
+i2(151),InceptionV3,1,1,9
+i2(151),MobileNetV2,1,0,3
+i3(260),VGG16,1,1,9
+i3(260),InceptionV3,1,1,9
+i3(260),MobileNetV2,1,1,9
+i4(408),VGG16,1,1,6
+i4(408),InceptionV3,1,1,9
+i4(408),MobileNetV2,1,1,6
+i5(770),VGG16,1,1,7
+i5(770),InceptionV3,1,1,7
+i5(770),MobileNetV2,1,1,6
