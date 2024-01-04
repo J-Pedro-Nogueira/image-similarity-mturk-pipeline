@@ -1,0 +1,140 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+	body {
+		padding-left: 20px;
+		margin-bottom: 20px;
+	}
+	#outer-container {
+	    display: flex;
+	    justify-content: space-around;
+	    max-width: 90%;
+	    margin-left: 100px;
+	}
+	.left-container {
+    	margin-right: auto;
+    	padding-right: 50px;
+	}
+	.right-container {
+    	margin-left: auto;
+    	padding-left: 50px;
+	}
+	#vertical-separator {
+	    border: solid 1px #d5dbdb;
+	}
+	#horizontal-spacing {
+	    margin-top: auto;
+		padding-top: 100px;
+	}
+</style>
+
+<crowd-form>
+    <div id="outer-container"> 
+        <span class="left-container">
+                <h3>Target Image</h3>
+	      	<p>
+					Which image is most similar to this one?
+                </p>
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${known_target_image_url}" />
+	      	</p>
+	    </span>
+			    <hr/>
+                <span id="vertical-separator"></span>
+
+        <span class="right-container">
+        <div>
+                <!-- <h3>Image 1</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${known_item1_image_url}" />
+	      	</p>
+			  <input type="radio" id="KnownImage1" name="KnownImageBatch" value="Image 1" required>
+			  <label for="KnownImage1">Image 1</label>
+	    </div>
+	    <p>
+        </p>
+            <div>
+                <!-- <h3>Image 3</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${known_item3_image_url}" />
+	      	</p>
+			  <input type="radio" id="KnownImag3" name="KnownImageBatch" value="Image 3" required>
+			  <label for="KnownImage3">Image 3</label>
+	    </div>
+	    <p>
+        </p>
+	</span>
+	<span class="right-container">
+        <div>
+                <!-- <h3>Image 2</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${known_item2_image_url}" />
+	      	</p>
+			  <input type="radio" id="KnownImage2" name="KnownImageBatch" value="Image 2" required>
+			  <label for="KnownImage2">Image 2</label>
+		</div>
+		<div class="horizontal-spacing">	
+	    </div>
+        </span>
+	</div>
+    <hr/>
+	<!-- question 2 -->
+	
+    <div id="outer-container"> 
+        <span class="left-container">
+                <h3>Target Image</h3>
+	      	<p>
+					Which image is most similar to this one?
+                </p>
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${target_image_url}" />
+	      	</p>	
+	    </span>
+			    <hr/>
+                <span id="vertical-separator"></span>
+
+        <span class="right-container">
+        <div>
+                <!-- <h3>Image 1</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${item1_image_url}" />
+	      	</p>
+			    <input type="radio" id="Image1" name="ImageBatch1" value="Image 1" required>
+                <label for="Image1">Image 1</label>
+	    </div>
+	    <p>
+        </p>
+            <div>
+                <!-- <h3>Image 3</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${item3_image_url}" />
+	      	</p>
+  			    <input type="radio" id="Image3" name="ImageBatch1" value="Image 3">
+                <label for="Image3">Image 3</label>
+	    </div>
+	    <p>
+        </p>
+	</span>
+	<span class="right-container">
+        <div>
+                <!-- <h3>Image 2</h3> -->
+	      	<p>
+	      	    <img style=" width:100%; max-width:600px; margin-bottom: 10px" src="${item2_image_url}" />
+	      	</p>
+			    <input type="radio" id="Image2" name="ImageBatch1" value="Image 2">
+                <label for="Image2">Image 2</label>
+		</div>
+        </span>
+	</div>
+	
+    <short-instructions>
+        Which image is the most similar to the target?
+    </short-instructions>
+
+      <full-instructions>
+        <p>Read the task carefully and inspect the items.</p>
+        <p>Select which test image is closest to the target image.</p>
+        <p>If you answer the validation question correctly, a bonus will be paid.</p>
+      </full-instructions>
+
+</crowd-form>
